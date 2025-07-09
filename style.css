@@ -1,0 +1,65 @@
+* {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+div.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+div.card {
+  width: 329px;
+  height: 393px;
+  border: 1px solid #d9d9d9;
+  margin: 35px;
+}
+
+div.card img {
+  width: 100%;
+}
+
+div.card h1 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 12px;
+}
+
+div.card div.deskripsi {
+  display: flex;
+  margin: 12px;
+  margin-top: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.card div.deskripsi p {
+  font-weight: 300;
+  font-size: 18px;
+}
+div.card div.deskripsi p span {
+  color: #8b8b8b;
+}
+
+div.card div.deskripsi p.price {
+  font-weight: 600;
+  color: #ff0000;
+}
+
+div.card div.button {
+  border: none;
+  width: 100%;
+  padding: 12px;
+}
+
+div.card div.button button {
+  background-color: #4e5ba6;
+  border: none;
+  width: 100%;
+  color: #ffffff;
+  height: 37px;
+  text-transform: uppercase;
+}
